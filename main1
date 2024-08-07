@@ -2,7 +2,7 @@
 logging.basicConfig(filename='whatsapp_messages.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-contacts = ['1032733561', '1289454302']
+contacts = ['mobile_no1', 'mobile_no2']
 message = "Good Afternoon from Egypt"
 
 def send_messages(contacts, message):
